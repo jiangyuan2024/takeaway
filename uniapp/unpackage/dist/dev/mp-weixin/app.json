@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/login",
+    "pages/register/register",
+    "pages/detail/detail",
+    "pages/confirm/confirm",
+    "pages/address/address",
+    "pages/addAddress/addAddress",
+    "pages/orderComment/orderComment",
+    "pages/orders/orders",
+    "pages/me/me",
+    "pages/orderItems/orderItems",
+    "pages/collect/collect",
+    "pages/person/person",
+    "pages/business/business",
+    "pages/agreement/agreement",
+    "pages/addComment/addComment",
+    "pages/comment/comment"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "小熊外卖",
+    "navigationBarBackgroundColor": "#ffd100",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#ffd100",
+    "color": "#666",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/icons/home.png",
+        "selectedIconPath": "static/icons/home-active.png"
+      },
+      {
+        "pagePath": "pages/orders/orders",
+        "text": "订单",
+        "iconPath": "static/icons/orders.png",
+        "selectedIconPath": "static/icons/orders-active.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "static/icons/me.png",
+        "selectedIconPath": "static/icons/me-active.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
